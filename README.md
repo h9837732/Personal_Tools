@@ -21,15 +21,6 @@ A graphical packaging tool built with Python + tkinter. One-click build executab
 
 ---
 
-## 📸 Screenshots
-
-| Main Interface | Config Tab | Output Log |
-|:---:|:---:|:---:|
-| *Screenshot here* | *Screenshot here* | *Screenshot here* |
-
-> 📷 Replace with actual screenshots before publishing.
-
----
 
 ## 🚀 Quick Start
 
