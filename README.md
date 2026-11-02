@@ -124,6 +124,10 @@ See [CHANGELOG.md](CHANGELOG.md). Highlights:
 
 MIT — see [LICENSE](LICENSE).
 
+## 👤 Author
+
+[h9837732](https://github.com/h9837732)
+
 ---
 
 # 🇨🇳 简体中文
