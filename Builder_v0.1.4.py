@@ -538,7 +538,8 @@ class BuilderApp:
         out = self.output_name_var.get() or "output"
         odir = self.output_dir_var.get() or "dist"
         steps = self._build_steps(lang, src, out, odir, self.icon_var.get())
-        text = "\n".join(" && ".join(s["cmd"]) for s in steps) if steps else "(no source)"
+        # 单条命令内部用空格，多步骤（javac -> jar）之间换行并加 && 标注
+        text = "\n".join(" ".join(s["cmd"]) for s in steps) if steps else "(no source)"
         self.cmd_text.delete("1.0", "end")
         self.cmd_text.insert("end", text)
 
